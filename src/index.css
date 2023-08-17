@@ -39,11 +39,13 @@
 
 .left .logo {
   position: absolute;
-  left: 1rem;
+  left: -8rem;
 }
 
 .left .logo img {
-  width: 80%;
+  width: 40%;
+  background-color: #000000;
+  border-radius: 50%;
 }
 
 .left .text {
@@ -100,13 +102,13 @@
 
 .right .logo {
   position: absolute;
-  right: 1rem;
-  bottom: 1rem;
+  right: -8rem;
+  bottom: 2rem;
 }
 
 .right .logo img {
-  width: 80%;
-  background-color: #ffffff;
+  width: 40%;
+  background-color: #000000;
   border-radius: 50%;
 }
 
