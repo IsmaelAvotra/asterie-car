@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&family=Inter:wght@700&display=swap');
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1600px;
+  height: 680px;
+  display: flex;
+}
+
+.left,
+.right {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+.left {
+  position: relative;
+  background-image: url(assets/bg-left.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.left::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(183, 183, 183, 0.4);
+}
+
+.left .logo {
+  position: absolute;
+  left: 1rem;
+}
+
+.left .logo img {
+  width: 80%;
+}
+
+.left .text {
+  position: absolute;
+  left: 15%;
+  top: 50%;
+}
+
+.left h2,
+.right h2 {
+  font-family: 'Faster One', cursive;
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  color: #000;
+}
+
+.left p {
+  font-family: 'Inter', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  background: linear-gradient(
+    132deg,
+    #ad0a0a 0%,
+    rgba(139, 23, 23, 0.92) 11.85%,
+    rgba(129, 24, 24, 0.84) 25.75%,
+    rgba(90, 37, 37, 0.69) 48.54%,
+    rgba(106, 31, 31, 0.83) 63.34%,
+    #ad0a0a 82.01%,
+    rgba(173, 10, 10, 0) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.right {
+  position: relative;
+  left: -200px;
+  background-image: url(assets/bg-right.jpg);
+  background-size: cover;
+  background-repeat: none;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 25% 100%);
+}
+
+.right::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.right .logo {
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+}
+
+.right .logo img {
+  width: 80%;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+.right .text {
+  position: absolute;
+  left: 25%;
+  top: 20%;
+}
+
+.right p {
+  color: #ad0a0a;
+  font-family: 'Inter', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+}
