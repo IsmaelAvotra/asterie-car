@@ -3,7 +3,7 @@ function App() {
     <div className='container'>
       <div className='left'>
         <div className='logo'>
-          <img src='/logo.png' alt='logo asterie car' />
+          <img src='/logo1.png' alt='logo asterie car' />
         </div>
         <div className='text'>
           <h2>ASTERIA CAR</h2>
