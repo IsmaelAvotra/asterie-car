@@ -154,16 +154,16 @@
 @keyframes changeBackgroundRight {
   0%,
   100% {
-    background-image: url(assets/bgr-1.jpg);
+    background-image: url(assets/bgr-1.jpeg);
   }
   25% {
-    background-image: url(assets/bgr-2.jpg);
+    background-image: url(assets/bgr-2.jpeg);
   }
   50% {
-    background-image: url(assets/bgr-3.jpg);
+    background-image: url(assets/bgr-3.jpeg);
   }
   75% {
-    background-image: url(assets/bgr-4.jpg);
+    background-image: url(assets/bgr-4.jpeg);
   }
 }
 
